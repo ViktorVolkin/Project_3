@@ -1,0 +1,16 @@
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family:"PTSans";
+} 
+
+.title-secondary{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position:from-font;
+    text-decoration-skip-ink: none;
+}

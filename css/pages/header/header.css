@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+}
+.header__container_info{
+width:1,536px;
+height:76px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+}
+.title-secondary{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position:from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header__title::before{
+    content: '';
+    background-image: url(/images/logo.png);
+    width: 50px;
+    height: 74px;
+    gap: 0px;
+    opacity: 0px;    
+}
