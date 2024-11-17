@@ -85,3 +85,12 @@ opacity: 0px;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.main__button{
+width:496px;
+height:44px;
+padding:10px 28px 10px 28px;
+gap:4px;
+border-radius:4px;
+opacity:0px;
+margin-bottom: 35px;
+}
