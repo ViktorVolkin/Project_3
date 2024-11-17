@@ -1,7 +1,12 @@
 .header{
-    display: flex;
+    width: 1,920px;
+    height:192px;
+    padding: 24px 0px 24px 0px;
+    gap: 24px;
+    opacity: 0px;
 }
 .header__container_info{
+display: flex;
 width:1,536px;
 height:76px;
 gap: 0px;
@@ -9,20 +14,72 @@ justify-content: space-between;
 opacity: 0px;
 
 }
-.title-secondary{
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 32px;
-    text-align: left;
-    text-underline-position:from-font;
-    text-decoration-skip-ink: none;
+.visual-info{
+    display: flex;
+    flex-direction: row;
+    width:305px;
+    height: 74px;
+    gap: 4px;
+    opacity: 0px;
+    
 }
 
 .header__title::before{
-    content: '';
-    background-image: url(/images/logo.png);
-    width: 50px;
-    height: 74px;
-    gap: 0px;
-    opacity: 0px;    
+    content: url(/images/logo.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-main-info-container{
+width:716px;
+height:76px;
+gap: 12px;
+opacity: 0px;
+display: flex;
+flex-direction: row;
+position: relative;
+left: 40px;
+}
+
+.header__text{
+    width:349px;
+height:72px;
+gap: 0px;
+opacity: 0px;
+border-right: 1px solid #A78BFA;
+padding-right: 12px;
+}
+.padding-left-12{
+    padding-left: 12px;
+}
+.navigation__container{
+width: 1536px;
+height:44px;
+gap: 0px;
+opacity: 0px;
+margin-top: 24px;
+
+}
+
+.header__button{
+width:196px;
+height:44px;
+padding: 10px 28px 10px 28px;
+gap: 4px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+color: white;
+}
+.menu{
+display: flex;
+width: 372px;
+height: 24px;
+gap: 24px;
+opacity: 0px;
+}
+.menu-item a:hover{
+    color:#8B5CF6;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
 }
