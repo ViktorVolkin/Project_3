@@ -1,0 +1,87 @@
+.main__container{
+width:1,536px;
+height:584px;
+gap:24px;
+opacity: 0px;
+display: flex;
+flex-direction: row;
+}
+.first-text-container{
+width:756px;
+height:216px;
+gap: 12px;
+opacity: 0px;
+}
+.title{
+width: 756px;
+height: 120px;
+gap: 0px;
+opacity: 0px;
+
+}
+.main__main-info{
+width:756px;
+height:584px;
+gap: 16px;
+opacity: 0px;
+}
+.main-image{
+width: 756px;
+height: 352px;
+gap: 0px;
+border-radius: 16px;
+opacity: 0px;
+transform: scaleX(-1);
+}
+.text-above-form{
+    text-align: center;
+    width: 358px;
+height:100px;
+gap: 16px;
+opacity: 0px;
+
+}
+.form-and-text{
+    display: flex;
+    flex-direction: column;
+    width:756px;
+    height:584px;
+    padding: 24px 27px 24px 27px;
+    gap: 28px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.form-only{
+width:496px;
+height:408px;
+gap: 28px;
+opacity: 0px;
+
+}
+
+.form-item:nth-child(1){
+    width:496px;
+    height:48px;
+    padding:12px 0px 0px 0px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 2px solid #111827;
+    opacity: 0px;
+}
+.form-item{
+    width:236px;
+    height:48px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 2px solid #111827;
+    opacity: 0px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.form_first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
