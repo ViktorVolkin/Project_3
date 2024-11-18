@@ -29,6 +29,9 @@ font-weight: 400;
 .right{
     text-align: right;
 }
+.center{
+    text-align: center;
+}
 .line-40{
     line-height: 40px;
 }
@@ -73,3 +76,17 @@ a{
 }
 .font-30{font-size: 30px;}
 .line-36{line-height: 36px;}
+.section__title{
+font-size: 30px;
+font-weight: 900;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.font-14{
+    font-size: 14px;
+}
+.line-20{
+    line-height: 20px;
+}
