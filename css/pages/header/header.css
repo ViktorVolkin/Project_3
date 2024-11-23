@@ -1,9 +1,10 @@
 .header{
-    width: 1,920px;
+    width: 1536px;
     height:192px;
     padding: 24px 0px 24px 0px;
     gap: 24px;
     opacity: 0px;
+    margin-right: 192px;
 }
 .header__container_info{
 display: flex;

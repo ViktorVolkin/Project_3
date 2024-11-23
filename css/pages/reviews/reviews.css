@@ -1,7 +1,6 @@
 .reviews{
 width:1536px;
 height:418px;
-padding: 0px 23px 0px 23px;
 gap: 47px;
 opacity: 0px;
 text-align: center;
@@ -19,9 +18,8 @@ opacity: 0px;
 .reviews__container-without-title{
     display: flex;
     align-items: center;
-    width:1,536px;
+    width:1536px;
     height:418px;
-    padding: 0px 23px 0px 23px;
     gap: 47px;
     opacity: 0px;    
 }
@@ -61,5 +59,5 @@ bottom: 40px;
 .reviews__title{
     width: 1276px;
     height: auto;
-    margin-left: 130px;
+    margin-left: 107px;
 }
