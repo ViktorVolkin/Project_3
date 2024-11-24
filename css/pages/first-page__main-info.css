@@ -17,7 +17,9 @@ width: 756px;
 height: 120px;
 gap: 0px;
 opacity: 0px;
-
+font-weight:900;
+font-size:36px;
+line-height:40px;
 }
 .main__main-info{
 width:756px;
@@ -54,6 +56,29 @@ opacity: 0px;
     opacity: 0px;
     background-color: #E5E7EB;
     align-items: center;
+}
+.first-page-main-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.first-page-main-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.first-page-under-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
 }
 .form-only{
 width:496px;
@@ -95,4 +120,10 @@ gap:4px;
 border-radius:4px;
 opacity:0px;
 margin-bottom: 35px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 }

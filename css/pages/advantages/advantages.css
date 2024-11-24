@@ -21,6 +21,14 @@ opacity: 0px;
 text-align: center;
 margin: 0 auto ;
 }
+.advantages-grid-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
 .advantage-flex-container{
 width:1,536px;
 height:392px;
@@ -30,6 +38,7 @@ display: grid;
 grid-template-columns:repeat(3,1fr);
 grid-template-rows: repeat(2,1fr);
 }
+
 .advantage-item{
 width:496px;
 height:184px;
@@ -51,6 +60,13 @@ height: 60px;
 gap: 0px;
 opacity: 0px;
 margin-top: 12px;
+}
+.advantages-grid-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
 }
 .advantage-item-image{
 width: 136px;

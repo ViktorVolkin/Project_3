@@ -44,10 +44,23 @@ opacity: 0px;
 .relative{
     position: relative;
 }
+.review-text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
 .review-author{
     position: absolute;
     left:43;
     bottom: 32px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
 }
 .reviews__Qoute{
 width: 75px;
